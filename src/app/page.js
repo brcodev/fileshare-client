@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     
-    <div className="md:w-4/5 xl:w-3/5 mx-auto mb-32">
+    <div className="md:w-4/5 xl:w-2/3 2xl:w-3/5 mx-auto mb-auto pb-10 ">
       { url ? (
 
       
