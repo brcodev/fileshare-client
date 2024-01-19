@@ -8,7 +8,7 @@
 
 ![fileshare - home](https://github.com/brcodev/fileshare-client/blob/main/public/app.png)
 
-FileShare es un una aplicación web API RESTful en donde se puede compartir archivos mediante un link generado, el cual se crea cuando el usuario utiliza el formulario principal de la aplicación para subir archivos, luego de ser descargado mediante dicho link, este se elimina automáticamente de la base de datos al igual que su respectivo archivo en el servidor. Por defecto se permite una sola descarga, sin contraseña, sin embargo al crear una cuenta el usuario puede establecer una contraseña para proteger el link de descarga como también la posibilidad de establecer y hasta un máximo de 10 descargas por link generado.
+FileShare es un una aplicación web API RESTful en donde se puede compartir archivos mediante un link generado, el cual se crea cuando el usuario utiliza el formulario principal de la aplicación para subir archivos, luego de ser descargado mediante dicho link, este se elimina automáticamente de la base de datos al igual que su respectivo archivo en el servidor. Por defecto se permite una sola descarga, sin contraseña, sin embargo al crear una cuenta el usuario puede establecer una contraseña para proteger el link de descarga como también la posibilidad de establecer hasta un máximo de 10 descargas por link generado.
 
 En este proyecto se utilizo Node.js usando el framework Express.js para el backend, mientras tanto que para el frontend se utilizo React con el framework Next.js. Para administración de base de datos se estableció el uso de MongoDB.
 
